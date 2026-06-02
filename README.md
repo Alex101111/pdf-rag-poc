@@ -54,7 +54,7 @@ Your question → nomic-embed-text → top 4 matching chunks → phi4-mini → a
 
 **1 — Clone the repo**
 ```bash
-git clone https://github.com/yourusername/pdf-rag-poc.git
+git clone https://github.com/Alex101111/pdf-rag-poc.git
 cd pdf-rag-poc
 ```
 

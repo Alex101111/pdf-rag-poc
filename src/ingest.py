@@ -40,7 +40,7 @@ def ingest(pdf_folder="data", vectorstore_dir="vectorstore"):
     splitter = SemanticChunker(
         embeddings,
         breakpoint_threshold_type="percentile",
-        breakpoint_threshold_amount=85
+        breakpoint_threshold_amount=90
     )
     chunks = splitter.split_documents(all_pages)
     print(f"Created {len(chunks)} chunks")
